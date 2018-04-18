@@ -30,3 +30,27 @@ Change all of data to nominal scale
 
 #### Location
 Use SmartPhone GPS Data
+smartphone gps data is ordinal scale data so we should change to nominal scale data use Google Reverse GeoCoding API
+
+#### Time
+Time data also ordinal scale data so change to nominal scale data
+I classify 4 label
+```
+* morning
+* afternoon
+* night
+* daybreak
+```
+![time_classify](./images/time.png)
+
+#### Acceleration
+Acceleration data also ordinal scale data so change to nominal scale data too
+I classify 2 label
+```
+* active(0 < accel_data < 3)
+* nonactive(accel_data > 3)
+```
+
+## MachineLearning Algorithm
+Naive Bayesian Algorithm
+![naive_algo](./images/naive.png)
