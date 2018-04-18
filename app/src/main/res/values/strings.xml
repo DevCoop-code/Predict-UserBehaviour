@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PredictionUserBehavior</string>
+    <string name="title_name">User_Behaviour : </string>
+    <string name="finish_btn">Finish</string>
+    <string name="start_btn">Start</string>
+    <string name="service_text">Service</string>
+</resources>
